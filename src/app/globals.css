@@ -16,3 +16,11 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+:root {
+  --text-color: #4c474b;
+  --background-color: #b7bac2;
+  --primary-color: #d08858;
+  --secondary-color: #c0aa8d;
+  --accent-color: #9e7066;
+}
