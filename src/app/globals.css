@@ -6,6 +6,7 @@
 html,
 body {
   height: 100%;
+  font-family: 'DynaPuff';
 }
 h1,
 h2,
@@ -23,4 +24,8 @@ p {
   --primary-color: #d08858;
   --secondary-color: #c0aa8d;
   --accent-color: #9e7066;
+}
+@font-face {
+  font-family: "DynaPuff";
+  src: url('./fonts/DynaPuff-VariableFont_wdth\,wght.ttf') format('truetype');
 }

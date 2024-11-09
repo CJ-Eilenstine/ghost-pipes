@@ -1,6 +1,6 @@
 .mainNav {
   height: 10vh;
-  background-color: aqua;
+  background-color: var(--primary-color);
 
   padding: 1rem;
   display: flex;
