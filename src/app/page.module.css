@@ -1,0 +1,45 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+
+}
+.container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+
+}
+.leaf1 {
+    position: absolute;
+    top: 30%;
+    right: 97%;
+    animation: swing 2s infinite ease-in-out
+}
+.leaf2 {
+    position: absolute;
+    top: 20%;
+    left: 103%;
+    animation: swing 2.4s infinite ease-in-out;
+    
+}
+
+
+ @keyframes swing {
+    0% { transform: rotate(5deg); } 
+    50% { transform: rotate(-5deg); } 
+    100% { transform: rotate(5deg); } 
+ }
