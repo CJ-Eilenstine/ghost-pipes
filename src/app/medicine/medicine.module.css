@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.container {
+    width: 50%;
+    text-align: center;
+}
+.list {
+    text-align: left;
+}
+.cards {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
