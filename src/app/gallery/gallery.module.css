@@ -20,13 +20,23 @@
 
 .img img {
   width: 100%;
-  
+  transition: transform 0.5s ease-in-out;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .img:hover img {
-  
-  object-fit: contain;
+  transform: rotate(-5deg);
+  animation: rotateAnimation 0.8s ease-in-out infinite alternate;
+  /* object-fit: contain; */
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(-5deg); /* Start rotating left */
+  }
+  100% {
+    transform: rotate(5deg); /* Rotate to the right */
+  }
 }
