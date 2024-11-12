@@ -1,0 +1,74 @@
+.refrenceList {
+  text-decoration: none;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.refrenceList li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.refrenceList li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.refrenceList li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.userSection input {
+  width: 300px;
+  height: 25px;
+  padding-left: 5px;
+  color: var(--primary-color);
+  border: none;
+  border-bottom: 2px solid black;
+}
+.userSection input::placeholder {
+  color: var(--primary-color);
+}
+.resourceFormHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.resourceForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.resourceForm input {
+    margin-top: 20px;
+}
+
+.resourceForm button {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: black;
+    font-size: large;
+    font-family: DynaPuff;
+    transition: all .2s ease-in-out;
+}
+
+.resourceForm button:hover {
+    cursor: pointer;
+    color: white;
+}
