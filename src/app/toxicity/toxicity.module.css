@@ -1,0 +1,9 @@
+.toxicityHolder {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.toxicityHolder ul li {
+    margin-left: 50px;
+    margin-bottom: 12px;
+}

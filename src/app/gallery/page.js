@@ -20,6 +20,42 @@ export default function Gallery() {
       <div className={galleryStyles.galleryContainer}>
         <h1>Gallery</h1>
         <div className={galleryStyles.imgRow}>
+          <div className={galleryStyles.sectionImg}>
+            <a href="/gallery/normal">
+              <Image src={image1} alt="A bunch of Ghost Pipes" />
+            </a>
+            <h3>Normal Images</h3>
+          </div>
+          <div className={galleryStyles.sectionImg}>
+            <a href="/gallery/single">
+              <Image src={image5} alt="A Closeup of a Ghost Pipe Plant" />
+              <h3>Single Images</h3>
+            </a>
+          </div>
+          <div className={galleryStyles.sectionImg}>
+            <a href="/gallery/red">
+              <Image
+                src={image4}
+                alt="Low Angle Shot!"
+                // height={200}
+                // width={200}
+              />
+              <h3>Red Images</h3>
+            </a>
+          </div>
+          <div className={galleryStyles.sectionImg}>
+            <a href="/gallery/diagrams">
+              <Image
+                src={image9}
+                alt="Low Angle Shot!"
+                // height={200}
+                // width={200}
+              />
+              <h3>Diagrams</h3>
+            </a>
+          </div>
+        </div>
+        <div className={galleryStyles.imgRow}>
           <div className={galleryStyles.img}>
             <Image
               src={image1}

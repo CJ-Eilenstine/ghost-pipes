@@ -65,6 +65,16 @@ export default function References() {
               Missouri Department of Conservation
             </a>
           </li>
+          <li>
+            <a href="https://greg.app/ghost-pipe-toxic-to-humans/">
+              Ghost Pipes: Toxic To Humans?
+            </a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/r/foraging/comments/15v1gyv/ghost_pipe_and_do_yall_actually_use_it_for/">
+              Ghost Pipes- r/foraging [Reddit.com]
+            </a>
+          </li>
         </ul>
         <div className={referenceStyles.userSection}>
           <div className={referenceStyles.userList}>
