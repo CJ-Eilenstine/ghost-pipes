@@ -26,6 +26,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+  width: 100%;
 }
 
 .userSection input {
@@ -39,11 +40,19 @@
 .userSection input::placeholder {
   color: var(--primary-color);
 }
+
+.userList {
+  width: 45%;
+  padding: 20px;
+}
+
+
 .resourceFormHolder {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
+  width: 45%;
 }
 
 .resourceForm {

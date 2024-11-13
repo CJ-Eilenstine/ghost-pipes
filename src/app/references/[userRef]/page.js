@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 export default function LinkPage() {
-  const { slug } = useRouter().query;  // Get the slug from the URL
+  const { slug } = useRouter().query;
   const [link, setLink] = useState(null);
 
   useEffect(() => {

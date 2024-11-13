@@ -1,9 +1,39 @@
 .toxicityHolder {
     width: 80%;
     margin: 0 auto;
+    margin-top: 20px;
+}
+
+.toxicityHolder h3 {
+    color: var(--accent-color);
 }
 
 .toxicityHolder ul li {
     margin-left: 50px;
     margin-bottom: 12px;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.embeddedLink a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.importantText {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.subList {
+    margin-left: 25px;
 }

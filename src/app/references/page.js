@@ -15,8 +15,8 @@ export default function References() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    const url = event.target.url.value; // Assuming 'url' is the input name for URL
-    const linkText = event.target.linkText.value; // Assuming 'linkText' is the input name for link text
+    const url = event.target.url.value;
+    const linkText = event.target.linkText.value;
     const slug = generateSlug(linkText);
 
     const newLink = { url, linkText, slug };
@@ -32,7 +32,6 @@ export default function References() {
     localStorage.setItem("links", JSON.stringify(existingLinks));
     setLinks(existingLinks);
 
-    // Reset form inputs
     event.target.reset();
   };
 
@@ -50,29 +49,53 @@ export default function References() {
         <h1>Our References</h1>
         <ul>
           <li>
-            <a href="https://www.homeopathyschool.com/the-school/provings/indian-pipe/">
+            <a
+              target="_blank"
+              href="https://www.homeopathyschool.com/the-school/provings/indian-pipe/"
+            >
               The homeopathic proving of Ghost Pipe (Monotropa Uniflora)- School
               of Homeopathy
             </a>
           </li>
           <li>
-            <a href="https://www.fs.usda.gov/wildflowers/plant-of-the-week/monotropa_uniflora.shtml">
+            <a
+              target="_blank"
+              href="https://www.fs.usda.gov/wildflowers/plant-of-the-week/monotropa_uniflora.shtml"
+            >
               US Forest Service
             </a>
           </li>
           <li>
-            <a href="https://mdc.mo.gov/discover-nature/field-guide/ghost-pipe-indian-pipe">
+            <a
+              target="_blank"
+              href="https://mdc.mo.gov/discover-nature/field-guide/ghost-pipe-indian-pipe"
+            >
               Missouri Department of Conservation
             </a>
           </li>
           <li>
-            <a href="https://greg.app/ghost-pipe-toxic-to-humans/">
+            <a
+              target="_blank"
+              href="https://greg.app/ghost-pipe-toxic-to-humans/"
+            >
               Ghost Pipes: Toxic To Humans?
             </a>
           </li>
           <li>
-            <a href="https://www.reddit.com/r/foraging/comments/15v1gyv/ghost_pipe_and_do_yall_actually_use_it_for/">
+            <a
+              target="_blank"
+              href="https://www.reddit.com/r/foraging/comments/15v1gyv/ghost_pipe_and_do_yall_actually_use_it_for/"
+            >
               Ghost Pipes- r/foraging [Reddit.com]
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://publicwebuploads.uwec.edu/documents/Sandra-Prickett.pdf"
+              rel="noopener noreferrer"
+            >
+              Does Monotropa uniflora produce grayanotoxin?
             </a>
           </li>
         </ul>
