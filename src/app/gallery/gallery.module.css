@@ -52,7 +52,6 @@
 .sectionImg {
   width: 200px;
   height: 200px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
