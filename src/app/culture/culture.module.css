@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.story {
+    width:60%;
+    text-align: left;
+}
+.intro {
+    text-align: center;
+    width:60%;
+    margin-bottom: 5%;
+}
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,13 @@
+.main {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.container {
+    width: 60%;
+}
+.main p {
+line-height: 30px;    
+}
