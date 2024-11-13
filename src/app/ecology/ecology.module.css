@@ -1,8 +1,8 @@
 .mainEco {
   width: 100%;
-  height: 90vh;
+  min-height: 90vh;
 
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
 
   display: flex;
   align-items: center;
@@ -20,4 +20,26 @@
 
 .mainEco img {
   border-radius: 10%;
+}
+
+.mainEco form {
+  margin-bottom: 16px;
+}
+
+.formDiv {
+  max-width: 35rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.formDiv input {
+  margin: 1rem;
+  padding: 0.125rem;
+}
+
+.formDiv span {
+  /* margin: 0.5rem; */
 }

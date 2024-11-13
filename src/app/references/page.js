@@ -98,6 +98,15 @@ export default function References() {
               Does Monotropa uniflora produce grayanotoxin?
             </a>
           </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.allianceforthebay.org/2023/10/the-ghosts-of-the-forest-floor-ghost-pipes/"
+              rel="noopener noreferrer"
+            >
+              The Ghosts of the Forest Floor
+            </a>
+          </li>
         </ul>
         <div className={referenceStyles.userSection}>
           <div className={referenceStyles.userList}>

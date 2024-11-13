@@ -1,0 +1,35 @@
+.mainAbout {
+  width: 100%;
+  min-height: 90vh;
+
+  /* background-color: var(--background-color); */
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+
+.mainAbout p {
+  max-width: 35rem;
+  text-align: center;
+}
+
+.mainAbout img {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 10%;
+  margin: 1rem;
+}
+
+.mainAbout button {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+
+  color: var(--text-color);
+  font-family: DynaPuff;
+}
