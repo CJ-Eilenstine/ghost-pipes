@@ -5,7 +5,8 @@ import getStates from "@/hooks/getStates";
 import Image from "next/image";
 import GhostPipe from "../../../assets/images/ghost-pipe-biome.jpg";
 export default function State({ params }) {
-   const slug = params.state
+   let slug = params.state
+   slug = slug.replace('%20', ' ');
   const stateData = getStates();
   const statesRaw = [
     "Alabama",
@@ -36,32 +37,32 @@ export default function State({ params }) {
     "Montana",
     "Nebraska",
     "Nevada",
-    "New Hampshire",
-    "New Jersey",
-    "New Mexico",
-    "New York",
-    "North Carolina",
-    "North Dakota",
+    "New%20Hampshire",
+    "New%20Jersey",
+    "New%20Mexico",
+    "New%20York",
+    "North%20Carolina",
+    "North%20Dakota",
     "Ohio",
     "Oklahoma",
     "Oregon",
     "Pennsylvania",
-    "Rhode Island",
-    "South Carolina",
-    "South Dakota",
+    "Rhode%20Island",
+    "South%20Carolina",
+    "South%20Dakota",
     "Tennessee",
     "Texas",
     "Utah",
     "Vermont",
     "Virginia",
     "Washington",
-    "West Virginia",
+    "West%20Virginia",
     "Wisconsin",
     "Wyoming",
   ];
   const statesNoPipes = [
     "arizona",
-    "new mexico",
+    "new%20mexico",
     "colorado",
     "utah",
     "nevada",
