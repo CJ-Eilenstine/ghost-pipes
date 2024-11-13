@@ -38,7 +38,7 @@ export default function Toxicity() {
             </li>
             <li>
               They are{" "}
-              <span className={toxicityStyles.importantText}>ENDANGERED</span>,
+              <span className={toxicityStyles.importantText}>VERY RARE</span>,
               so they should be protected.
             </li>
           </ul>
