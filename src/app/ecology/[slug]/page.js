@@ -1,3 +1,5 @@
+"use client";
+
 import ecoStyles from "./eco.module.css";
 
 export default function ObservationSuccess({ params }) {
