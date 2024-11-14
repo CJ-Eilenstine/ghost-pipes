@@ -18,7 +18,7 @@ export function StatesProvider({ children }) {
     </StatesContext.Provider>
   );
 }
-export default function usegetStates() {
+export default function useGetStates() {
     const context = useContext(StatesContext);
     return context;
 }

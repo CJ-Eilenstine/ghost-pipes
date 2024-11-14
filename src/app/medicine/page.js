@@ -6,7 +6,7 @@ export default function Medicine() {
     <main className={medicineStyles.main}>
       <div className={medicineStyles.container}>
       <h1>Medicine</h1>
-      <p>Despite it's scary name, Ghost Pipes are a very effective medicine! They can be used to treat many illnesses, including:</p>
+      <p>Despite it&apos;s scary name, Ghost Pipes are a very effective medicine! They can be used to treat many illnesses, including:</p>
       <ul className={medicineStyles.list}>
         <li>General Pain</li>
         <li>Seizures</li>
