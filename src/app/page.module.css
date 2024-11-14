@@ -35,6 +35,19 @@
   animation: swing 2.4s infinite ease-in-out;
 }
 
+.galleryLink {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+transition: all .2s ease-in-out;
+}
+
+.galleryLink:hover {
+  text-decoration: underline;
+  color: white;
+  
+}
+
 @keyframes swing {
   0% {
     transform: rotate(5deg);

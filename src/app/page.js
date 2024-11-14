@@ -62,6 +62,7 @@ export default function Home() {
             />{" "}
           </div>
         </div>
+        <a className={styles.galleryLink} href="/gallery">Visit the Gallery</a>
       </div>
     </main>
   );
