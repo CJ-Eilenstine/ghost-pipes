@@ -32,14 +32,24 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
+  flex-wrap: wrap;
+
+  /* flex-direction: column; */
 }
 
 .formDiv input {
   margin: 1rem;
-  padding: 0.125rem;
+  padding: 0.5rem;
+  width: 12rem;
+
+  font-family: DynaPuff;
 }
 
-.formDiv span {
-  /* margin: 0.5rem; */
+.formDiv textarea {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 12rem;
+
+  font-family: DynaPuff;
+  resize: vertical;
 }
