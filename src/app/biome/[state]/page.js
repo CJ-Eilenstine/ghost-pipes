@@ -1,13 +1,13 @@
 "use client";
 import stateStyles from "./state.module.css";
 import Link from "next/link";
-import getStates from "@/hooks/getStates";
+import useGetStates from "@/hooks/getStates";
 import Image from "next/image";
 import GhostPipe from "../../../assets/images/ghost-pipe-biome.jpg";
 export default function State({ params }) {
    let slug = params.state
    slug = slug.replace('%20', ' ');
-  const stateData = getStates();
+  const stateData = useGetStates();
   const statesRaw = [
     "Alabama",
     "Alaska",
@@ -129,7 +129,7 @@ export default function State({ params }) {
       <main className={stateStyles.main}>
         <div className={stateStyles.container}>
           <h1>
-            We're sorry, The state you entered ({slug}) does not
+            We&apos;re sorry, The state you entered ({slug}) does not
             exist. Please try again.
           </h1>
           <input

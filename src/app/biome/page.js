@@ -2,9 +2,9 @@
 import biomeStyles from "./biome.module.css";
 import Link from "next/link";
 import { useState, useContext } from "react";
-import getStates from "@/hooks/getStates";
+import useGetStates from "@/hooks/getStates";
 export default function Biome() {
-  const stateData = getStates();
+  const stateData = useGetStates();
   return (
     
     <main className={biomeStyles.main}>

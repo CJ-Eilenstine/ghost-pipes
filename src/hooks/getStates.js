@@ -15,7 +15,7 @@ export function StatesProvider({ children }) {
       const contextValue = { state, changeState, capitalizeFirstLetter };
     return <StatesContext.Provider value={contextValue}>{children}</StatesContext.Provider>;
 }
-export default function getStates() {
+export default function usegetStates() {
     const context = useContext(StatesContext);
     return context;
 }
