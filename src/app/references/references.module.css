@@ -4,6 +4,8 @@
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 20px;
+
+  padding: 2rem;
 }
 .refrenceList li {
   margin-bottom: 15px;
@@ -46,7 +48,6 @@
   padding: 20px;
 }
 
-
 .resourceFormHolder {
   display: flex;
   align-items: center;
@@ -61,23 +62,23 @@
 }
 
 .resourceForm input {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .resourceForm button {
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 20px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: var(--primary-color);
-    color: black;
-    font-size: large;
-    font-family: DynaPuff;
-    transition: all .2s ease-in-out;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: black;
+  font-size: large;
+  font-family: DynaPuff;
+  transition: all 0.2s ease-in-out;
 }
 
 .resourceForm button:hover {
-    cursor: pointer;
-    color: white;
+  cursor: pointer;
+  color: white;
 }

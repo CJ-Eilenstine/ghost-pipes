@@ -45,6 +45,14 @@
   font-family: DynaPuff;
 }
 
+.formDiv button {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 12rem;
+
+  font-family: DynaPuff;
+}
+
 .formDiv textarea {
   margin: 1rem;
   padding: 0.5rem;
